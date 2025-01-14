@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "WMV2")(type "KiCad")(uri "/Users/matthiasbilger/git/kicad/projects/wirelessMacroboard/WirelessMacroboardV2/WirelessMacroV2/WMV2.kicad_sym")(options "")(descr ""))
+)
