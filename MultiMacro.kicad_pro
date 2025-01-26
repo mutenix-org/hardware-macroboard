@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [
         "courtyards_overlap|110104050|35274052|e3fdb772-ce04-4321-8faa-133cd86cb8fc|f6d0135f-825e-48a7-83a2-eba30ad8e815",
         "courtyards_overlap|110104050|42974052|1b9ee650-ada1-4a59-a8cc-dbe3372263e7|f6d0135f-825e-48a7-83a2-eba30ad8e815",
@@ -183,7 +189,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -210,7 +218,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -428,7 +441,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -576,7 +589,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": ".",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -592,5 +605,8 @@
       "Root"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "Copyright": "2025 Matthias Bilger <matthias@bilger.info>",
+    "SPDX-License-Identifier": "CERN-OHL-S-2.0 license"
+  }
 }
